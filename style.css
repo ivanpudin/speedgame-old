@@ -6,7 +6,11 @@
 }
 
 body {
-    background-color: lavender;
+    color: white;
+    background-image: url('tavern.jpeg');
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
 }
 
 main {
@@ -31,7 +35,7 @@ p {
 }
 
 .circles button {
-    background-color: aqua;
+    background-color: transparent;
     height: 5rem;
     width: 5rem;
     border: 0.5px solid black;
@@ -40,11 +44,11 @@ p {
 }
 
 .circles button:hover {
-    background-color: rgb(2, 150, 150);
+    opacity: 50%;
 }
 
 .btn.active {
-    background-image: url('shot1.jpg');
+    background-image: url('mug.jpeg');
     background-size: cover;
 }
 
@@ -77,8 +81,8 @@ p {
     width: 5rem;
     border: none;
     border-radius: 20px;
-    color: white;
-    background-color: red;
+    color: black;
+    background-color: wheat;
 }
 
 #start:hover,
