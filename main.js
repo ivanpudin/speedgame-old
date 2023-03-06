@@ -88,6 +88,10 @@ const resetGame = () => {
 startButton.addEventListener('click', startGame)
 endButton.addEventListener('click', endGame)
 closeButton.addEventListener('click', resetGame)
+document.addEventListener('DOMContentLoaded', () => {
+  idle.play()
+})
+
 window.onload = function () {
   idle.play()
 }
