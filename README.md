@@ -14,17 +14,17 @@ _still needs to be finished_
 
 # Setup and usage
 
-### start game
+### Start game
 
 Press "Play" button to start the game, music will go on and beer mugs start to popping up
 
-### end game
+### End game
 
 - Game ends when you hit the "Stop" button
 - Game ends when you hit the wrong circle
 - Game ends when beer pops up 10 times
 
-[Game link](https://public.bc.fi/s2300108/speedgame/)
+[**Game link**](https://public.bc.fi/s2300108/speedgame/)
 
 # Screenshot
 
@@ -34,7 +34,10 @@ Press "Play" button to start the game, music will go on and beer mugs start to p
 
 background image: [**source**](https://rare-gallery.com/838466-tavern-the-witcher-3-wild-hunt-men.html)
 
-background music: **Witcher 3 Wild Hunt OST "Drink Up, There's More!"**
+music used:
+
+- **Witcher 3 Wild Hunt OST "Drink Up, There's More!"**
+- **Witcher 3 Wild Hunt OST "The Nightingale"**
 
 # Authors and acknowledgement
 
