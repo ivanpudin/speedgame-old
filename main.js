@@ -5,7 +5,7 @@ const closeButton = document.querySelector('#close')
 const scoreSpan = document.querySelector('.score')
 const scoreEnd = document.querySelector('.scoreEnd')
 const overlay = document.querySelector('.overlay')
-const bgMusic = new Audio('./background_music.mp3')
+const bgMusic = new Audio('content/background_music.mp3')
 
 let score = 0
 let active = 0
