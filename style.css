@@ -1,0 +1,121 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Papyrus', sans-serif;
+}
+
+body {
+    background-color: lavender;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 5rem;
+}
+
+h1,
+p {
+    margin-bottom: 5rem;
+}
+
+.circles {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.circles button {
+    background-color: aqua;
+    height: 5rem;
+    width: 5rem;
+    border: 0.5px solid black;
+    border-radius: 100px;
+    margin: 1rem;
+}
+
+.circles button:hover {
+    background-color: rgb(2, 150, 150);
+}
+
+.btn.active {
+    background-image: url('shot1.jpg');
+    background-size: cover;
+}
+
+/* .circles button.shot2 {
+    background-image: url('shot1.jpg');
+    background-size: cover;
+}
+
+.circles button.shot3 {
+    background-image: url('shot1.jpg');
+    background-size: cover;
+}
+
+.circles button.shot4 {
+    background-image: url('shot1.jpg');
+    background-size: cover;
+} */
+
+/* .shot1:hover,
+.shot2:hover,
+.shot3:hover,
+.shot4:hover {
+    opacity: 50%;
+} */
+
+#start,
+#stop {
+    margin-top: 5rem;
+    height: 3rem;
+    width: 5rem;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    background-color: red;
+}
+
+#start:hover,
+#stop:hover {
+    opacity: 50%;
+}
+
+.overlay {
+    visibility: hidden;
+    background-color: rgba(0, 0, 0, 0.458);
+    position: fixed;
+    height: 100%;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal {
+    background-color: white;
+    position: relative;
+    width: 20rem;
+    height: 10rem;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+#close {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    color: red;
+    font-size: 20px;
+    background-color: white;
+    border: none;
+}
+
+.hidden {
+    display: none;
+}

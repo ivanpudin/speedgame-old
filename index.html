@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <main>
+      <div id="title">
+        <h1>Speed game</h1>
+        <p>Your score: <span class="score"></span></p>
+      </div>
+
+      <div class="circles">
+        <button id="first" class="btn"></button>
+        <button id="second" class="btn"></button>
+        <button id="third" class="btn"></button>
+        <button id="fourth" class="btn"></button>
+      </div>
+
+      <button type="submit" id="start">Start Game!</button>
+      <button type="submit" id="stop" class="hidden">Stop Game!</button>
+
+      <div class="overlay">
+        <div class="modal">
+          <p>Game Over</p>
+          <p>Your score: <span class="scoreEnd">0</span></p>
+          <button id="close">X</button>
+        </div>
+      </div>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>
