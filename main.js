@@ -5,7 +5,7 @@ const closeButton = document.querySelector('#close')
 const scoreSpan = document.querySelector('.score')
 const scoreEnd = document.querySelector('.scoreEnd')
 const overlay = document.querySelector('.overlay')
-const idle = new Audio('content/idle.mp3')
+const idle = document.querySelector('#idle')
 const bgMusic = new Audio('content/background_music.mp3')
 
 let score = 0
@@ -88,6 +88,6 @@ const resetGame = () => {
 startButton.addEventListener('click', startGame)
 endButton.addEventListener('click', endGame)
 closeButton.addEventListener('click', resetGame)
-document.addEventListener('DOMContentLoaded', () => {
+window.onload = function () {
   idle.play()
-})
+}
