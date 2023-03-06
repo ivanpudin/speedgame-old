@@ -52,28 +52,6 @@ p {
     background-size: cover;
 }
 
-/* .circles button.shot2 {
-    background-image: url('shot1.jpg');
-    background-size: cover;
-}
-
-.circles button.shot3 {
-    background-image: url('shot1.jpg');
-    background-size: cover;
-}
-
-.circles button.shot4 {
-    background-image: url('shot1.jpg');
-    background-size: cover;
-} */
-
-/* .shot1:hover,
-.shot2:hover,
-.shot3:hover,
-.shot4:hover {
-    opacity: 50%;
-} */
-
 #start,
 #stop {
     margin-top: 5rem;
