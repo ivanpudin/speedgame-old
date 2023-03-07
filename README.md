@@ -24,7 +24,7 @@ Press "Play" button to start the game, music will go on and beer mugs start to p
 - Game ends when you hit the wrong circle
 - Game ends when beer pops up 10 times
 
-[### Game link](https://public.bc.fi/s2300108/speedgame/)
+[**Game link**](https://public.bc.fi/s2300108/speedgame/)
 
 # Screenshot
 
