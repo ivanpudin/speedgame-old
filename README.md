@@ -39,6 +39,9 @@ music used:
 - **Witcher 3 Wild Hunt OST "Drink Up, There's More!"**
 - **Witcher 3 Wild Hunt OST "The Nightingale"**
 
+non-commercial, non-altered usage
+Cypyright, All rights belongs to CD Projekt RED
+
 # Authors and acknowledgement
 
 Ivan Pudin
