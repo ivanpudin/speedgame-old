@@ -7,7 +7,7 @@
 }
 
 body {
-    color: wheat;
+    color: rgb(255, 243, 220);
     background-image: url('content/tavern.jpeg');
     background-attachment: fixed;
     background-position: center center;
@@ -20,7 +20,7 @@ main {
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 5rem;
+    margin: 5rem 0rem 5rem 0rem;
 }
 
 h1,
@@ -33,6 +33,9 @@ p {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    min-width: 310px;
+    margin: 0 2rem 0 2rem;
 }
 
 .circles button {
@@ -62,7 +65,7 @@ p {
     border: none;
     border-radius: 20px;
     color: black;
-    background-color: wheat;
+    background-color: rgb(255, 243, 220);
 }
 
 #start:hover,
@@ -83,10 +86,10 @@ p {
 
 .modal {
     color: black;
-    background-color: wheat;
+    background-color: rgb(255, 243, 220);
     position: relative;
     width: 20rem;
-    height: 10rem;
+    height: 17rem;
     padding: 1rem;
     border-radius: 10px;
 }

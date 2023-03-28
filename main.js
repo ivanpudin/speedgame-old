@@ -4,6 +4,7 @@ const endButton = document.querySelector('#stop')
 const closeButton = document.querySelector('#close')
 const scoreSpan = document.querySelector('.score')
 const scoreEnd = document.querySelector('.scoreEnd')
+const conditionalMsg = document.querySelector('.conditionalMsg')
 const overlay = document.querySelector('.overlay')
 const idle = document.querySelector('#idle')
 const bgMusic = new Audio('content/background_music.mp3')
@@ -37,7 +38,7 @@ const enableCircles = () => {
 }
 
 const startGame = () => {
-  if (rounds >= 10) {
+  if (rounds >= 20) {
     return endGame()
   }
 
@@ -71,6 +72,13 @@ const startGame = () => {
 }
 
 const endGame = () => {
+  if (score < 80) {
+    conditionalMsg.textContent = 'Drink up! There is more!'
+  } else if (score < 160) {
+    conditionalMsg.textContent = 'Skol!'
+  } else {
+    conditionalMsg.textContent = 'Valhalla waits for us!'
+  }
   scoreEnd.textContent = score
 
   endButton.classList.remove('hidden')
@@ -91,7 +99,3 @@ closeButton.addEventListener('click', resetGame)
 document.addEventListener('DOMContentLoaded', () => {
   idle.play()
 })
-
-window.onload = function () {
-  idle.play()
-}
