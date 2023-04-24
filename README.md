@@ -2,8 +2,6 @@
 
 basic speedgame made for fun
 
-_still needs to be finished_
-
 # Technologies used
 
 ### Built with:
